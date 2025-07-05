@@ -1,11 +1,9 @@
 import Container from "../layout/Container";
-import Navbar from "../Organisation/Navbar";
 import Image from "../../assets/Container.png";
 
 const Hero = () => {
   return (
     <main className="w-full max-h-screen">
-      <Navbar />
       <section className="">
         <Container className="grid max-w-6xl px-4 py-8 lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12 relative">
           <div className="mr-auto place-self-center lg:col-span-7">
