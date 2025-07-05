@@ -1,6 +1,8 @@
 import "./App.css";
 import Container from "./Component/layout/Container";
 import Navbar from "./Component/Organisation/Navbar";
+import AboutSolution from "./Component/Section/AboutSolution";
+import AboutTestimoni from "./Component/Section/AboutTestimoni";
 import Hero from "./Component/Section/Hero";
 import ReviewCustomer from "./Component/Section/reviewCustomer";
 import SublimeProduct from "./Component/Section/SublimeProduct";
@@ -13,6 +15,8 @@ function App() {
         <Hero />
         <ReviewCustomer />
         <SublimeProduct />
+        <AboutSolution />
+        <AboutTestimoni />
       </Container>
     </main>
   );

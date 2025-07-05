@@ -1,5 +1,6 @@
 import Container from "../layout/Container";
 import Image from "../../assets/Container.png";
+import CheckBoxGroup from "../Atom/CheckBoxGroup";
 
 const Hero = () => {
   return (
@@ -32,20 +33,7 @@ const Hero = () => {
               </div>
             </div>
             <div className="inline-flex space-x-4">
-              <label className="inline-flex items-center space-x-2 cursor-pointer">
-                <input
-                  type="checkbox"
-                  className="w-3 h-3 appearance-none rounded-full border-2 border-black checked:bg-black transition duration-200"
-                />
-                <span className="text-sm">On Demand Support</span>
-              </label>
-              <label className="inline-flex items-center space-x-2 cursor-pointer">
-                <input
-                  type="checkbox"
-                  className="w-3 h-3 appearance-none rounded-full border-2 border-black checked:bg-black transition duration-200"
-                />
-                <span className="text-sm">Seamless Cloud Technology</span>
-              </label>
+                <CheckBoxGroup />
             </div>
           </div>
 
