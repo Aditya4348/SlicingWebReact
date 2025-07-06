@@ -6,6 +6,7 @@ import AboutTestimoni from "./Component/Section/AboutTestimoni";
 import CustomerSupport from "./Component/Section/CustomerSuppor";
 import Featured from "./Component/Section/featured";
 import Hero from "./Component/Section/Hero";
+import MostPopularBlog from "./Component/Section/MostPopuler";
 import ReviewCustomer from "./Component/Section/reviewCustomer";
 import SublimeProduct from "./Component/Section/SublimeProduct";
 
@@ -21,6 +22,7 @@ function App() {
         <AboutTestimoni />
         <CustomerSupport />
         <Featured />
+        <MostPopularBlog />
       </Container>
     </main>
   );
