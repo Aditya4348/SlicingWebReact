@@ -34,10 +34,10 @@ const MostPopularBlog = () => {
   ];
 
   return (
-    <section className="w-full max-h-screen py-16 my-16">
-      <Container className="max-w-5xl mx-auto px-4">
+    <section className="w-full max-h-screen py-28">
+      <Container className="max-w-5xl ">
         {/* Header Section */}
-        <div className="flex items-center mb-12">
+        <div className="flex items-center mb-6">
           <div className="flex items-center justify-between gap-8 w-full">
             <h1 className="text-4xl font-normal text-gray-900 leading-tight">
               Most
@@ -45,7 +45,7 @@ const MostPopularBlog = () => {
               Popular Blog
             </h1>
 
-            <div className="flex items-center justify-between gap-6 w-[50%]">
+            <div className="flex items-end justify-between gap-6 w-[50%]">
               <div className="flex flex-col items-start gap-2">
                 <div className="flex items-center gap-2">
                   <Sparkles />
@@ -56,7 +56,7 @@ const MostPopularBlog = () => {
                   will help your team grow.
                 </p>
               </div>
-              <button className="bg-gray-900 hover:bg-gray-800 text-white px-8 py-3 rounded-full text-sm font-medium whitespace-nowrap">
+              <button className="bg-gray-900 hover:bg-gray-800 text-white px-4 py-2 rounded-full text-sm font-medium whitespace-nowrap">
                 Learn More
               </button>
             </div>
@@ -92,7 +92,7 @@ const MostPopularBlog = () => {
                 </div>
 
                 {/* Content Section */}
-                <div className="p-4 space-y-4">
+                <div className="space-y-2 p-4">
                   <p className="text-sm text-gray-500 font-medium">
                     {post.date}
                   </p>
