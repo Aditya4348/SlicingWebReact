@@ -1,6 +1,6 @@
 const ReviewCustomer = () => {
   return (
-    <section className="w-full h-1/2 flex md:flex-row flex-col items-center justify-around py-8 px-3 border-y border-black/20">
+    <section className="w-full flex md:flex-row flex-col items-center justify-around py-8 px-3 border-y border-black/20">
       <div className="flex flex-col items-start justify-start gap-2">
         <h1 className="text-3xl font-medium text-[#18181B]">
           15,000+ happy

@@ -5,7 +5,7 @@ import BoxContent from "../../assets/BoxContent.png";
 
 const Featured = () => {
   return (
-    <section className="w-full max-h-screen">
+    <section className="w-full ">
       <Container className="max-w-5xl flex flex-col items-center justify-between gap-10">
         <div className="space-y-9 w-1/2">
           <span className="flex items-center gap-2 justify-center">

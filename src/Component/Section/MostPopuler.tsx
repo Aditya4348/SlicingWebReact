@@ -34,7 +34,7 @@ const MostPopularBlog = () => {
   ];
 
   return (
-    <section className="w-full max-h-screen py-28">
+    <section className="w-full py-5">
       <Container className="max-w-5xl ">
         {/* Header Section */}
         <div className="flex items-center mb-6">

@@ -4,8 +4,7 @@ import CheckBoxGroup from "../Atom/CheckBoxGroup";
 
 const Hero = () => {
   return (
-    <main className="w-full max-h-screen">
-      <section className="">
+      <section className="w-full">
         <Container className="grid max-w-6xl px-4 py-8 lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12 relative">
           <div className="mr-auto place-self-center lg:col-span-7">
             <p className="mb-4 font-light text-gray-500">
@@ -44,7 +43,6 @@ const Hero = () => {
             />
         </Container>
       </section>
-    </main>
   );
 };
 

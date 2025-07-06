@@ -7,7 +7,7 @@ import Penempa from "../../assets/Penempa.png";
 
 const AboutSolution = () => {
   return (
-    <section className="w-full max-h-screen">
+    <section className="w-full ">
       <Container className="max-w-5xl flex items-center justify-between">
         <div className="flex flex-col items-start justify-center gap-6 ">
           <img src={Penempa} alt="" className="w-[10%] "/>

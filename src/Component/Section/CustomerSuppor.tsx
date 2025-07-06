@@ -26,7 +26,7 @@ const CustomerSupport = () => {
   ];
 
   return (
-    <section className="w-full max-h-screen">
+    <section className="w-full ">
       <Container className="max-w-5xl flex items-center justify-between">
         <div className="w-full flex flex-col items-center gap-6 p-9 border-2 border-dashed border-gray-400">
           <div className="flex items-center justify-around gap-10">
