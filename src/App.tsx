@@ -9,6 +9,7 @@ import Hero from "./Component/Section/Hero";
 import MostPopularBlog from "./Component/Section/MostPopuler";
 import ReviewCustomer from "./Component/Section/reviewCustomer";
 import SublimeProduct from "./Component/Section/SublimeProduct";
+import Testimoni from "./Component/Section/Testimoni";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <CustomerSupport />
         <Featured />
         <MostPopularBlog />
+        <Testimoni />
       </Container>
     </main>
   );
