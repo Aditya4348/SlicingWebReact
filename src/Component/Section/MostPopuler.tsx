@@ -1,6 +1,7 @@
 import { Sparkles, Star } from "lucide-react";
 import Card from "../layout/Card";
 import Container from "../layout/Container";
+import Button from "../Atom/Button";
 
 const MostPopularBlog = () => {
   const blogPosts = [
@@ -56,9 +57,7 @@ const MostPopularBlog = () => {
                   will help your team grow.
                 </p>
               </div>
-              <button className="bg-gray-900 hover:bg-gray-800 text-white px-4 py-2 rounded-full text-sm font-medium whitespace-nowrap">
-                Learn More
-              </button>
+              <Button>Learn More</Button>
             </div>
           </div>
         </div>

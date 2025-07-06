@@ -1,6 +1,5 @@
 import "./App.css";
 import Container from "./Component/layout/Container";
-import Navbar from "./Component/Organisation/Navbar";
 import AboutSolution from "./Component/Section/AboutSolution";
 import AboutTestimoni from "./Component/Section/AboutTestimoni";
 import CustomerSupport from "./Component/Section/CustomerSuppor";
@@ -15,7 +14,6 @@ function App() {
   return (
     <main className="w-full overflow-x-hidden">
       <Container className="max-w-7xl">
-        <Navbar />
         <Hero />
         <ReviewCustomer />
         <SublimeProduct />
